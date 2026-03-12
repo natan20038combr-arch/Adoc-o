@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+<meta charset="UTF-8">
+
+<style>
+
+body{
+font-family:Arial;
+background-color:#e9f7e9;
+margin:0;
+}
+
+header{
+background-color:#2e8b3c;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+header h1{
+font-size: 45px;
+}
+
+.formulario{
+background-color:white;
+width:500px;
+margin:45px auto;
+padding:35px;
+border-radius:15px;
+}
+
+input, select, textarea{
+width:100%;
+padding:10px;
+margin-top:5px;
+margin-bottom:15px;
+}
+
+button{
+background-color:#ff7a00;
+color:white;
+border:none;
+padding:12px;
+width:100%;
+font-size:18px;
+border-radius:8px;
+cursor:pointer;
+}
+
+button:hover{
+background-color:#e66b00;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>🐾Formulário de Adoção🐾</h1>
+<p>Preencha os dados para solicitar a adoção</p>
+</header>
+
+<div class="formulario">
+
+<form>
+
+<label>Nome completo</label>
+<input type="text" required>
+
+<label>Email</label>
+<input type="email" required>
+
+<label>Telefone</label>
+<input type="tel" required>
+
+<label>Animal que deseja adotar</label>
+<select>
+<option>Ragnar</option>
+<option>Dante</option>
+<option>Luna</option>
+<option>Bruna</option>
+</select>
+
+<label>Por que você quer adotar?</label>
+<textarea rows="4"></textarea>
+
+<button type="submit">Enviar pedido de adoção</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
